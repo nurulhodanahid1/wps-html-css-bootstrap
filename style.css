@@ -1,0 +1,50 @@
+h1, h2, h3 {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    /* font-size: 40px; */
+    color: blueviolet;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(12, 201, 185);
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+
+.box {
+    background-color: tomato;
+    height: 300px;
+    width: 400px;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
